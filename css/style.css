@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
-
+body{
+	margin-top: 70px;
+	position: relative;
+	
+	
+}
 .navbar-default{
 	background: #fff;
 	border:0;
@@ -11,8 +16,53 @@
 	color: #000 !important;
 	font-weight: bold;
 }
+h1{
+	font-family:"Fira Sans" ;
+	color: black;
+}
 p{
 	font-family:"Fira Sans" ;
 	color: black;
 }
+#home{
+	padding-top: 50px;
+	height:500px;
+	color: #fff;
+	background-color: #ff0000;
+}
 
+#about {
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: #1E88E5;
+	}
+#corporate {
+  	padding-top:50px;
+  	height:500px;color: #fff;
+  	background-color: #673ab7;
+  }
+#graphic {
+  	padding-top:50px;
+  	height:500px;
+  	color: #fff; 
+  	background-color: #ff9800;
+  }
+#film {
+	padding-top:50px;
+	height:500px;
+	color: #fff; 
+	background-color: #00bcd4;
+}
+#events {
+	padding-top:50px;
+	height:500px;
+	color: #fff; 
+	background-color: #009688;
+}
+#contact {
+	padding-top: 50px
+	height:500px;
+	color: #fff;
+	background-color:#ff0000;
+}
