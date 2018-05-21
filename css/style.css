@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+.navbar-default{
+	background: #fff;
+	border:0;
+	font-family: sans-serif;
+}
+.navbar-brand{
+	font-size: 20px;
+	color: #000 !important;
+	font-weight: bold;
+}
+
+
