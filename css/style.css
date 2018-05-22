@@ -16,40 +16,33 @@ body{
 	color: #000 !important;
 	font-weight: bold;
 }
+
 .panel-default{
   border: 2px solid white;
   text-decoration: none;
   font-family: "Fira Sans";
   font-weight: bold;
-  font-size: 30px;
-  width: 550px;
-  height: 225px;
-  padding: 50px;
-  border-radius:0;
+  font-size: 20px;
+  width: 320px;
+  height: 150px;
+  padding: 20px;
   color: #fff;
   background-color: #F7A99E;
-}
-h1{
-	font-family:"Fira Sans" ;
-	color: black;
-}
-p{
-	font-family:"Fira Sans" ;
-	color: black;
-}
-.box {
-  border: 2px solid white;
-  text-decoration: none;
-  font-family: "Fira Sans";
-  font-weight: bold;
-  font-size: 30px;
-  width: 550px;
-  height: 225px;
-  padding: 50px
-}
-#home{
-	padding-top: 50px;
-	height:600px;
+  border-radius: 0px;
+	}
+
+	h1{
+		font-family:"Fira Sans" ;
+		color: black;
+	}
+	p{
+		font-family:"Fira Sans" ;
+		color: black;
+	}
+
+	#home{
+		padding-top: 50px;
+		height:600px;
 	color: #fff;
 	background-color: #F7A99E;
 }
@@ -88,7 +81,4 @@ p{
 	height:600px;
 	color: #fff;
 	background-color:#fff;
-}
-.map{
-	
 }
