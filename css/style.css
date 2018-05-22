@@ -16,15 +16,19 @@ body{
 	color: #000 !important;
 	font-weight: bold;
 }
+.box{
+	padding-top: 240px;
+	padding-left: 210px;
 
+}
 .panel-default{
   border: 2px solid white;
   text-decoration: none;
   font-family: "Fira Sans";
   font-weight: bold;
-  font-size: 20px;
-  width: 320px;
-  height: 150px;
+  font-size: 25px;
+  width: 385px;
+  height: 190px;
   padding: 20px;
   color: #fff;
   background-color: #F7A99E;
