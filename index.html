@@ -16,6 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="animated-scroll-anchor.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 
   </head>
 
@@ -46,15 +48,16 @@
     <section id="home">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             
             <div class="panel panel-default panel-stas">
-  <div class="panel-body">  We're are a small company <br> but out work <br> is absolutely huge... </div>
+  <div class="panel-body panel-stas-body">  We're are a small company <br> but out work <br> is absolutely huge... </div>
               </div>
         </div>
-        <div class="col-lg-6">
-          
-        </div>
+        <div class="">
+         <a class="ct-btn-scroll ct-js-btn-scroll animated" href="#about">
+      </div>
+        
         </div>
       </div>
     </section>
@@ -102,9 +105,13 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd-_IRmIR6XfEjKHiqFuxO7C9t7bkI77M&callback=myMap"></script>
-<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/animated-scroll-anchor.js"></script>
+
      </div>
    </section>
+
   </body>
 
 </html>

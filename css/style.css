@@ -23,11 +23,14 @@ body{
   font-family: "Fira Sans";
   font-weight: bold;
   font-size: 25px;
-  	
   color: #fff;
   background-color: #F7A99E;
   border-radius: 0px;
+  position: relative;
 	}
+.panel-stas-body{
+	
+}
 
 	h1{
 		font-family:"Fira Sans" ;
