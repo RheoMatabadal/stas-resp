@@ -43,9 +43,19 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <section id="home">
+    <section id="home" class="container-fluid">
       <div class="container">
-        <h1>home</h1>
+        <div class="row">
+          <div class="col-sm-auto">
+            <div class="panel panel-default">
+  <div class="panel-body">  We're are a small company <br> but out work <br> is absolutely huge... </div>
+
+         
+                 
+       
+        </div>
+        </div>
+        </div>
       </div>
     </section>
    <section id="about">
@@ -77,7 +87,22 @@
    </section>
    <section id="contact">
      <div class="container">
-       <h1>contact</h1>
+       
+       <div id="map" style="background:#fff"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.859678, -0.1233241),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd-_IRmIR6XfEjKHiqFuxO7C9t7bkI77M&callback=myMap"></script>
+<!--
      </div>
    </section>
   </body>
