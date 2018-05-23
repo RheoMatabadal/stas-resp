@@ -2,6 +2,7 @@
 body{
 	margin-top: 70px;
 	position: relative;
+	font-family:"Fira Sans" ;
 
 	
 }
@@ -47,9 +48,12 @@ body{
 }
 .full-of-ideas{
   display: block;
-  min-width: 75%;
+  min-width: 75%;	
   height: auto;
   padding-top:40px;
+}
+.about-bio{
+	font-size: 15px;
 }
 .about-image{
 	max-height: auto;
@@ -58,18 +62,15 @@ body{
 	width: 125px;
 }
 .leer-ons-kennen{
-	position: relative;
-	padding-bottom: 0px;
+padding-top: 100px;
+color:white;	
+
 }
 
 
-	h1{
+h1{
 		font-family:"Fira Sans" ;
 		color: black;
-	}
-	p{
-		font-family:"Fira Sans" ;
-		/*color: black;*/
 	}
 
 #home{
