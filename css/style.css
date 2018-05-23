@@ -27,10 +27,31 @@ body{
   background-color: #F7A99E;
   border-radius: 0px;
   position: relative;
-	}
-.panel-stas-body{
-	
+  margin-top: 260px;
+ /* margin-right: 280px;*/
+
+  	}
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 600px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
 }
+.full-of-ideas{
+  display: block;
+  min-width: 80%;
+  height: auto;
+  padding-top:40px;
+}
+
 
 	h1{
 		font-family:"Fira Sans" ;
@@ -38,11 +59,11 @@ body{
 	}
 	p{
 		font-family:"Fira Sans" ;
-		color: black;
+		/*color: black;*/
 	}
 
 	#home{
-		padding-top: 50px;
+		/*padding-top: 50px;*/
 		height:600px;
 	color: #fff;
 	background-color: #F7A99E;
