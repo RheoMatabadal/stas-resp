@@ -40,11 +40,16 @@ body{
   left: 0;
   right: 0;
   margin: auto;
-  padding-top: 600px;
+  /*padding-top: 600px;*/
   z-index: 9;
   border-radius: 50%;
   -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
+}
+.scroll-a{
+	
+    -webkit-filter: invert(100%);
+}
 }
 .full-of-ideas{
   display: block;
