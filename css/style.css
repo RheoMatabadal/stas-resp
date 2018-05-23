@@ -74,20 +74,20 @@ body{
 
 #home{
 		/*padding-top: 50px;*/
-	height:700px;
+	min-height:700px;
 	color: #fff;
 	background-color: #F7A99E;
 }
 
 #about {
 	padding-top:50px;
-	height:650px;
+	min-height:650px;
 	color: #FFFFFF;
 	background-color: #000000 ;
 	}
 #corporate {
   	padding-top:50px;
-  	height:650px;color: #fff;
+  	min-height:650px;color: #fff;
   	background-color: #673ab7;
   }
 #graphic {
