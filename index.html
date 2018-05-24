@@ -12,12 +12,16 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <link href="css/jquery.bxslider.css" rel="stylesheet"/>
+     <link href="css/animated-scroll-anchor.css" rel="stylesheet">
 
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="animated-scroll-anchor.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  
 
   </head>
 
@@ -53,8 +57,9 @@
             <div class="panel panel-default panel-stas">
   <div class="panel-body panel-stas-body">  We're are a small company <br> but out work <br> is absolutely huge... </div>
               </div>
-          </div>
-              
+          
+              <div class="row">
+                
               <div class="scroll-down">
                 
               <a class="ct-btn-scroll ct-js-btn-scroll scroll-a" href="#about"><img alt="Arrow Down Icon" src="img/down-arrow.png"></a>
@@ -62,7 +67,7 @@
             </div>
         </div>
         </div>
-       
+       </div>
 
         
         </div>
@@ -111,6 +116,17 @@
    <section id="corporate">
      <div class="container">
 <h1>corporate identity</h1>
+<ul class="bxslider">
+  <li><img src="img/emp.jpg" /></li>
+  <li><img src="img/suit.jpg" /></li>
+  <li><img src="img/suit2.jpg" /></li>
+  <li><img src="img/suit.jpg" /></li>
+</ul>
+<script> 
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script> 
       </div>
    </section>
    <section id="graphic">
@@ -145,10 +161,10 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd-_IRmIR6XfEjKHiqFuxO7C9t7bkI77M&callback=myMap"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/animated-scroll-anchor.js"></script>
-<script src="js/scroll-down.js"></script>
+<script src="js/scrolldown.js"></script>
      </div>
    </section>
 
