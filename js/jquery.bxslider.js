@@ -10,7 +10,7 @@
   var defaults = {
 
     // GENERAL
-    mode: 'vertical',
+    mode: 'fade',
     slideSelector: '',
     infiniteLoop: true,
     hideControlOnEnd: false,
@@ -18,11 +18,11 @@
     easing: null,
     slideMargin: 0,
     startSlide: 0,
-    randomStart: true,
-    captions: false,
+    randomStart: false,
+    captions: true,
     ticker: true,
     tickerHover: false,
-    adaptiveHeight: false,
+    adaptiveHeight: true,
     adaptiveHeightSpeed: 500,
     video: false,
     useCSS: true,
@@ -66,7 +66,7 @@
     autoControlsSelector: null,
 
     // AUTO
-    auto: false,
+    auto: true,
     pause: 4000,
     autoStart: true,
     autoDirection: 'next',
