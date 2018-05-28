@@ -162,14 +162,19 @@ $(document).ready(function(){
     <div class="container"></div>
    </section>
    <section id="contact">
-     <div class="container">
-<h1>contact</h1>
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAo1io8sW--PfYzGcyVs-bWKRyOTWFJayQ'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>how to embed google map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=2db89595379cd74224b56ad0816f5ddd16c3c161'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(5.831059,-55.161945),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(5.831175981008081,-55.161951968212065)});infowindow = new google.maps.InfoWindow({content:'<strong>STAS International</strong><br>Dr. J.F.Nassylaan 43<br> Paramaribo<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
- 
-
-
-     </div>
-   </section>
+     <div class="container-fluid">
+      <div class="row">
+        <div id=wrapper>
+<div class="map-responsive">
+  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.5867824096867!2d-55.16303874209342!3d5.831138898943725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwNDknNTIuMSJOIDU1wrAwOSc0My4wIlc!5e0!3m2!1snl!2s!4v1527513725646" height="200px" frameborder="0" style="border:0" zoom="20" allowfullscreen></iframe>
+</div>
+<div id="over_map"></div>
+</div>
+</div>
+</div>
+</section>
+  
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/animated-scroll-anchor.js"></script>
 <script src="js/scrolldown.js"></script>
