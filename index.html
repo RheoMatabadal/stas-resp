@@ -116,16 +116,26 @@
    <section id="corporate">
      <div class="container">
       <div class="row">
-        <div class="col-sm-2 amanah">
+        <div class="col-sm-2">
+          <div class="amanah">
           <h3>TRUSTBANK <br> AMANAH <br> <img src="img/partlogo-01.png" alt="amanah"></h3>
-        </div>
+
+          </div>
+          
+        
+      <div class="amanah-link">
       
+        <a href="#">CORPORATE IDENTITY</a>
+        <a href="#">GRAPHIC DESIGN</a>
+        <a href="#">FILM/VIDEO</a>
+        </div>
+        </div>
       <div class="col-sm-8 col-sm-offset-1">
 <ul class="bxslider">
-  <li><img src="img/emp.jpg" /></li>
+  <li><img src="img/controls.png" /></li>
   <li><img src="img/suit.jpg" /></li>
   <li><img src="img/suit2.jpg" /></li>
-  <li><img src="img/suit.jpg" /></li>
+  <li><img src="img/emp.jpg" /></li>
 </ul>
 </div>
 </div>
@@ -144,37 +154,25 @@ $(document).ready(function(){
    <section id="film">
      <div class="container">
        <h1>film/video</h1>
+     
+
      </div>
    </section>
    <section id="events">
-     <div class="container">
-       <h1>events</h1>
-     </div>
+    <div class="container"></div>
    </section>
    <section id="contact">
      <div class="container">
-       
-       <div id="map" style="background:#fff"></div>
+<h1>contact</h1>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAo1io8sW--PfYzGcyVs-bWKRyOTWFJayQ'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>how to embed google map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=2db89595379cd74224b56ad0816f5ddd16c3c161'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(5.831059,-55.161945),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(5.831175981008081,-55.161951968212065)});infowindow = new google.maps.InfoWindow({content:'<strong>STAS International</strong><br>Dr. J.F.Nassylaan 43<br> Paramaribo<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+ 
 
-<script>
-function myMap() {
-var mapOptions = {
-    center: new google.maps.LatLng(51.859678, -0.1233241),
-    zoom: 10,
-    mapTypeId: google.maps.MapTypeId.HYBRID
-}
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
-</script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd-_IRmIR6XfEjKHiqFuxO7C9t7bkI77M&callback=myMap"></script>
-
+     </div>
+   </section>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/animated-scroll-anchor.js"></script>
 <script src="js/scrolldown.js"></script>
-     </div>
-   </section>
-
   </body>
 
 </html>

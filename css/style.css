@@ -114,27 +114,36 @@ h1{
 max-height: 60px;
 color:black;
 }
+.amanah-link{
+	font-family: "Fira Sans"
+	font-weight:lighter;
+	font-color:black !important;
+}
 #graphic {
   	padding-top:50px;
-  	height:650px;
+  	min-height:650px;
   	color: #fff; 
   	background-color: #ff9800;
   }
 #film {
 	padding-top:50px;
-	height:650px;
+	min-height:650px;
 	color: #fff; 
 	background-color: #00bcd4;
 }
 #events {
 	padding-top:50px;
-	height:650px;
+	min-height:650px;
 	color: #fff; 
 	background-color: #009688;
 }
 #contact {
 	padding-top:50px
-	height:650px;
+	min-height:650px;
 	color: #fff;
-	background-color:#fff;
+	background-color:red;
+}
+.map{
+max-height: 500px;
+max-width: 100%;
 }
