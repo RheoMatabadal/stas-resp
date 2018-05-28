@@ -159,3 +159,8 @@ color:black;
     width:100%;
     position:absolute;
 }
+.card-map{
+	margin-top: 300px;
+	margin-left: 300px;
+	background-color: #FFFFFF;	
+}
