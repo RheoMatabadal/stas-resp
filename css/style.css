@@ -3,6 +3,7 @@ body{
 	margin-top: 70px;
 	position: relative;
 	font-family:"Fira Sans" ;
+	text-decoration: none;
 
 	
 }
@@ -164,16 +165,28 @@ color:black;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;	
-	margin-top: 250px;
+			
 	/*margin-left: 375px;*/
 	background-color: #FFFFFF;
 	border-radius:1px;
 	border: 1px solid white; 	
 	width:100%;
     height:auto;
+    display: flex;
 }
 .btn-dark{
 	background-color: black;
 	color: white;
 	border-radius: 1px;
+	text-decoration: none;	
+	opacity:1.0;
+
+box-shadow:none;
+
+}
+.half{
+
+}
+.half:focus {
+ 
 }
