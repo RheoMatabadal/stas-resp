@@ -175,6 +175,7 @@ color:black;
     display: flex;
 }
 .btn-dark{
+	min-width: 100px;
 	background-color: black;
 	color: white;
 	border-radius: 1px;
@@ -185,8 +186,17 @@ box-shadow:none;
 
 }
 .half{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
 
 }
 .half:focus {
- 
+   border-color:black;
+}
+.space{
+	margin-right: 10p	x;
 }
