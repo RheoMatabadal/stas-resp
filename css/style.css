@@ -181,9 +181,10 @@ color:black;
 	border-radius: 1px;
 	text-decoration: none;	
 	opacity:1.0;
-
-box-shadow:none;
-
+	box-shadow:none;
+}
+.btn-dark:hover{
+	background-position: 0px;	
 }
 .half{
   outline: 0;
