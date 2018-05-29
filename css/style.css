@@ -165,10 +165,12 @@ color:black;
 	padding-right: 20px;
 	padding-bottom: 20px;	
 	margin-top: 250px;
-	margin-left: 375px;
+	/*margin-left: 375px;*/
 	background-color: #FFFFFF;
 	border-radius:1px;
 	border: 1px solid white; 	
+	width:100%;
+    height:auto;
 }
 .btn-dark{
 	background-color: black;
