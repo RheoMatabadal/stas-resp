@@ -127,6 +127,15 @@ color:black;
 	color: black;
 	text-decoration: none;
 }
+.amanah-pijl{
+transform: rotate(-90deg);	
+max-height: 13px;
+
+}
+.view-project{
+	font-size:15px;
+	font-weight:bolder;
+}
 #graphic {
   	padding-top:50px;
   	min-height:650px;
@@ -205,7 +214,7 @@ text-decoration: none;
    border-color:black;
 }
 .space{
-	margin-right: 10p	x;
+	margin-right: 10px;
 }
 .bxslider li {
   min-height: 100vh;
