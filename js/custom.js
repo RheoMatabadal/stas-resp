@@ -6,8 +6,8 @@ $(document).ready(function() {
 		controls: false,
 		pager:false,
 		responsive:true,
-
-		nextText:'Next'
+		slideWidth: 0,
+		shrinkItems:true
 	});
 // 	var windowWidth = $(window).width(),
 // 		windowHeight = $(window).height(),
