@@ -257,6 +257,7 @@ box-shadow: none;
   position: absolute;
   top: 50%;
   margin-top: -16px;
+  padding-top:225px;
   outline: 0;
   width: 32px;
   height: 32px;
