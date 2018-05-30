@@ -252,6 +252,7 @@ text-decoration: none;
 left: 0;
 border: none;
 box-shadow: none;
+
 }
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
@@ -263,7 +264,7 @@ box-shadow: none;
   height: 32px;
   text-indent: 5px; 
   z-index: 9999;
-  font-color:black !important;
+ color:black;
 
   }	
 
