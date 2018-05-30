@@ -227,10 +227,16 @@ text-decoration: none;
   background-size: cover;
 }
 
-.bx-wrapper .bx-viewport {
+.bx-wrapper{
   left: 0;
   border: none;
   box-shadow: none;
+}
+
+.bx-viewport{
+left: 0;
+border: none;
+box-shadow: none;
 }
 
 ul, ul li {

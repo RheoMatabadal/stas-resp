@@ -1,9 +1,8 @@
 $(document).ready(function() {
 	$('.bxslider').bxSlider({
 		mode : 'horizontal',
-		auto: true,
-		pause: 2000,
-		controls: false,
+		auto: false,
+		controls: true,
 		pager:false,
 		responsive:true,
 		slideWidth: 0,
