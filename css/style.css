@@ -72,7 +72,8 @@ body{
 }
 .leer-ons-kennen{
 padding-top: 100px;
-color:white;	
+color:white;
+text-decoration: none;	
 
 }
 .leer-ons-kennen img{
@@ -109,7 +110,10 @@ h1{
 .amanah{
 	color:black;
 	font-weight: bolder;
+	font-size:20px;
 	max-width: 70%;
+	/*margin-right: 50px;*/
+	padding-top:50px;
 
 }
 .amanah img{	
@@ -117,10 +121,11 @@ h1{
 max-height: 60px;
 color:black;
 }
-.amanah-link{
-	font-family: "Fira Sans"
-	font-weight:lighter;
-	font-color:black !important;
+.amanah a{
+	font-family: "Fira Sans";
+	font-weight:10;
+	color: black;
+	text-decoration: none;
 }
 #graphic {
   	padding-top:50px;
@@ -206,7 +211,7 @@ text-decoration: none;
   min-height: 100vh;
 }
 .bxslider li.one {
-  background: url(https://images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e476dbc9096ec1c869bd2cb97d82c70) center center;
+  background: url(https://media.istockphoto.com/photos/dark-gray-background-picture-id511017202?k=6&m=511017202&s=612x612&w=0&h=5WZYYScqPv0k2kss1RRY9D4dQSJGdZ8648IqRgG1ETY=) center center;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
