@@ -184,7 +184,8 @@ color:black;
 	box-shadow:none;
 }
 .btn-dark:hover{
-	background-position: 0px;	
+color: #fff !important;
+text-decoration: none;	
 }
 .half{
   outline: 0;

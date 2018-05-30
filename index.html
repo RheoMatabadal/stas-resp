@@ -179,12 +179,12 @@ $(document).ready(function(){
   <div class="card card-map">
   <div class="card-body">
     <center>
-     <h1 class="card-title">Want to know what STAS can do for u? <br> 
+     <h1 class="card-title hvr-pulse">Want to know what STAS can do for u? <br> 
      Drop us a line and we'll get in touch.</h1>
     <br>
     
-    <a href="#" class="btn btn-dark space hvr-pulse tog1" data-toggle="modal" data-target="#exampleModalCenter"><i class="fab fa-telegram-plane"></i> SEND US A MESSAGE</a>
-    <a class="btn btn-dark space tog2"><i class="fas fa-map-marker"></i> COME VISIT US </a>
+    <a href="#" class="btn btn-dark space hvr-backward tog1" data-toggle="modal" data-target="#exampleModalCenter"><i class="fab fa-telegram-plane"></i> SEND US A MESSAGE</a>
+    <a class="btn btn-dark space tog2 hvr-forward"><i class="fas fa-map-marker"></i> COME VISIT US </a>
   </center>
     <br>
     <br>
@@ -209,7 +209,7 @@ $(document).ready(function(){
     <div class="modal-content">
       <div class="modal-header">
         <h2 class="modal-title" id="exampleModalCenterTitle">Send us a message</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close hvr-wobble-horizontal" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -238,7 +238,7 @@ $(document).ready(function(){
 </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-dark pull-left"><i class="fab fa-telegram-plane"></i> Send Message</button>
+        <button type="button" class="btn btn-dark pull-left hvr-pulse-grow"><i class="fab fa-telegram-plane"></i> Send Message</button>
       </div>
     </div>
   </div>
@@ -248,7 +248,7 @@ $(document).ready(function(){
   <script>
 $(document).ready(function(){
     $(".tog2").click(function(){
-        $(".wrapper").hide();
+        $(".over_map").hide();
     });
     
 });
