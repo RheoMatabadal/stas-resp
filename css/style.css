@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
 body{
 	margin-top: 70px;
 	position: relative;
@@ -288,7 +288,7 @@ ul, ul li {
 	padding-bottom: 3px;
 	text-align:center;
 	margin-top: 100px;
-	font-weight: 900 !important;
+	font-weight: bolder !important;
 } 
 .corporate-card-dark{
 	background-color: black;
@@ -297,5 +297,5 @@ ul, ul li {
 	padding-right: 3px;
 	text-align: center;
 	color:white;
-	font-weight: 900 !important;
+	font-weight: bolder !important;
 }
