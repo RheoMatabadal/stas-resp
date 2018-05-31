@@ -316,8 +316,25 @@ ul, ul li {
     margin-left: 0;
 
 }
-.card-margin{
-	margin-left: 1px;
+.first-impression{
+	background-color: black;
+	/*text-align: center;*/
+
+}
+.first-impression p{
+	color:white;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.first-impression h1{
+	color:#8C9B81;
+	font-weight: bold;
+	font-size: 50px;
+	/*text-align: center;*/
+	margin-top: 50px;
+	margin-left:50px;
+	margin-right:50px; 
+
 }
 
 
