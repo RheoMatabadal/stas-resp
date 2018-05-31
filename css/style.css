@@ -306,7 +306,9 @@ ul, ul li {
 	color:white;
 	font-weight: bolder!important;
 }
-
+#gallery{
+	min-height: 600px;
+}
 .gallery{
 	position: relative;
 	display: block;
@@ -318,6 +320,8 @@ ul, ul li {
 }
 .first-impression{
 	background-color: black;
+	min-height: 450px;
+	/*max-height: 450px;*/
 	/*text-align: center;*/
 
 }
@@ -334,6 +338,13 @@ ul, ul li {
 	margin-top: 50px;
 	margin-left:50px;
 	margin-right:50px; 
+
+}
+.first-impression a{
+	
+	margin-left:50px;
+	margin-right:50px; 
+	padding-bottom: 50px;
 
 }
 
