@@ -347,7 +347,41 @@ ul, ul li {
 	padding-bottom: 50px;
 
 }
+#footer{
+	background-image: url('https://www.beautycolorcode.com/414141-2880x1800.png');
+	min-height: 125px;
+}
+.adres i{
+margin-top: 45px;
+color: white;
+font-size: 2em;
+}
+.adres p{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+.telefoon i{
+margin-top: 45px;
+color: white;
+font-size: 2em;
+}
+.telefoon p{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
 
+.bericht i{
+margin-top: 45px;
+color: white;
+font-size: 2em;
+}
+.bericht p{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
 
 
 
