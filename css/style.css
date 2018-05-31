@@ -320,7 +320,7 @@ ul, ul li {
 }
 .first-impression{
 	background-color: black;
-	min-height: 450px;
+	min-height: 443px;
 	/*max-height: 450px;*/
 	/*text-align: center;*/
 
@@ -347,14 +347,15 @@ ul, ul li {
 	padding-bottom: 50px;
 
 }
-#footer{
+#contact{
 	background-image: url('https://www.beautycolorcode.com/414141-2880x1800.png');
-	min-height: 125px;
+	/*min-height: 100px;*/
 }
 .adres i{
-margin-top: 45px;
+/*margin-top: 15px;*/
 color: white;
 font-size: 2em;
+padding-bottom: 10px;
 }
 .adres p{
 	text-align: center;
@@ -362,9 +363,10 @@ font-size: 2em;
 	color: white;
 }
 .telefoon i{
-margin-top: 45px;
+/*margin-top: 15px;*/
 color: white;
 font-size: 2em;
+padding-bottom: 10px;
 }
 .telefoon p{
 	text-align: center;
@@ -373,16 +375,20 @@ font-size: 2em;
 }
 
 .bericht i{
-margin-top: 45px;
+/*margin-top: 15px;*/
 color: white;
 font-size: 2em;
+padding-bottom: 10px;
 }
 .bericht p{
 	text-align: center;
 	margin-top: 10px;
 	color: white;
 }
-
+#footer{
+	color: white;
+	background-color: black;
+}
 
 
 
