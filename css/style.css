@@ -329,7 +329,7 @@ ul, ul li {
 }
 
 #gallery{
-	min-height: 500px;
+	min-height: 150px;
 }
 .gallery{
 	position: relative;
