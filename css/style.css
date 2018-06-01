@@ -233,6 +233,11 @@ text-decoration: none;
 .space{
 	margin-right: 10px;
 }
+.space-social-icons{
+	margin-right: 5px;
+	padding-top: 2px;
+}
+
 .bxslider li {
   min-height: 100vh;
 }
@@ -411,6 +416,10 @@ padding-bottom: 10px;
 	color: white;
 	background-color: black;
 }
+.year{
+	margin-top:9px;
+}
+
 #cta-banner{
 	background-image: url('http://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-pink-solid-color-background.jpg');
 	background-size: cover;
