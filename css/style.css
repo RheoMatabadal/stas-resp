@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body{
 	margin-top: 70px;
 	position: relative;
-	font-family:"Fira Sans" ;
+	font-family:"Ubuntu" ;
 	text-decoration: none;
 
 	
@@ -12,10 +12,10 @@ body{
 .navbar-default{
 	background: #fff;
 	border:0;
-	font-family: "Fira Sans";
+	font-family: "Ubuntu";
 }
 .navbar-brand{
-	font-family: "Fira Sans";
+	font-family: "Ubuntu";
 	font-size: 20px;
 	color: #000 !important;
 	font-weight: bold;
@@ -24,7 +24,7 @@ body{
 .panel-stas{
   border: 2px solid white;
   text-decoration: none;
-  font-family: "Fira Sans";
+  font-family: "Ubuntu";
   font-weight: bold;
   font-size: 25px;
   color: #fff;
@@ -84,7 +84,7 @@ max-height: 13px;
 
 
 h1{
-		font-family:"Fira Sans" ;
+		font-family:"Ubuntu" ;
 		/*color: black;*/
 	}
 
@@ -122,7 +122,7 @@ max-height: 60px;
 color:black;
 }
 .amanah a{
-	font-family: "Fira Sans";
+	font-family: "Ubuntu";
 	font-weight:10;
 	color: black;
 	text-decoration: none;
@@ -199,6 +199,23 @@ max-height: 13px;
 }
 .btn-dark:hover{
 color: #fff !important;
+text-decoration: none;	
+}
+.btn-white{
+	max-width: 225px;
+	background-color: white;
+	color: black;
+	border-radius: 1px;
+	text-align: center;
+	text-decoration: none;	
+	opacity:1.0;
+	box-shadow:none;
+	font-weight:bold;
+	margin-left: 75px;
+	
+}
+.btn-white:hover{
+color: black !important;
 text-decoration: none;	
 }
 .half{
@@ -290,24 +307,29 @@ ul, ul li {
 	background-color: #fff;
 	border-radius: 0px;
 	padding-top: 2px;
-	padding-right: 3px;
+	
 	padding-bottom: 3px;
-	text-align:center;
+	/*text-align:center;*/
 	margin-top: 100px;
 	font-weight: bolder!important;
 	color: #404548;
+	    padding-left: 25px;
+    padding-bottom: 10px;
 } 
 .card-dark{
 	background-color: #404548;
 	border-radius: 0px;
 	padding-top: 2px;
-	padding-right: 3px;
-	text-align: center;
+	padding-left: 25px;
+    padding-bottom: 10px;
+	/*margin-left: 35px;*/
+	/*text-align: center;*/
 	color:white;
 	font-weight: bolder!important;
 }
+
 #gallery{
-	min-height: 600px;
+	min-height: 500px;
 }
 .gallery{
 	position: relative;
@@ -320,7 +342,7 @@ ul, ul li {
 }
 .first-impression{
 	background-color: black;
-	min-height: 443px;
+	min-height: 450px;
 	/*max-height: 450px;*/
 	/*text-align: center;*/
 
@@ -388,6 +410,19 @@ padding-bottom: 10px;
 #footer{
 	color: white;
 	background-color: black;
+}
+#cta-banner{
+	background-image: url('http://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-pink-solid-color-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 400px;	
+}
+.cta-text{
+	color:white;
+	margin-top:125px;
+	margin-left: 75px;
+	margin-bottom:30px;
+	margin-right: 30px;
 }
 
 
