@@ -446,6 +446,16 @@ padding-bottom: 10px;
     text-align: center;
     width: 100%;
 }
-
-
-
+#loadMore a {
+    background: black;
+    background-size: cover;
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+#loadMore a:hover {
+    background-color: #021737;
+}

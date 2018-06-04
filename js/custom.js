@@ -23,3 +23,9 @@ $( document ).ready(function () {
 			}
 		});
 	});
+$(document).ready(function(){
+	$("#tog2").on('click', function (e){
+		e.preventDefault();
+		$("#over_map").toggle('slow');
+	});
+});
