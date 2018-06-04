@@ -441,23 +441,23 @@ padding-bottom: 10px;
 }
 
 #loadMore {
-    padding-bottom: 30px;
-    padding-top: 30px;
+     padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
     width: 100%;
 }
 #loadMore a {
+    
     background: black;
-    background-size: cover;
     border-radius: 0px;
     color: white;
     display: inline-block;
     padding: 10px 30px;
-    transition: all 0.25s ease-out;
-    /*-webkit-font-smoothing: antialiased;*/
+    transition: all 0.25s ease-out;/
 }
 #loadMore a:hover {
-    background-color: #021737;
+    /*background-color: #021737;*/
+    text-decoration: none;
 }
 #tog3{
 	display: none;

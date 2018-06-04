@@ -1,3 +1,4 @@
+//bx slider
 $(document).ready(function() {
 	$('.bxslider').bxSlider({
 		mode : 'horizontal',
@@ -9,7 +10,7 @@ $(document).ready(function() {
 		shrinkItems:true
 	});
  });
-
+//load more button
 $( document ).ready(function () {
 		$(".gallery").slice(0, 4).show();
 		if ($(".gallery:hidden").length != 0) {
@@ -23,6 +24,7 @@ $( document ).ready(function () {
 			}
 		});
 	});
+//map overlay hide & show
 $(document).ready(function(){
 	$("#tog2").on('click', function (e){
 		e.preventDefault();
