@@ -459,3 +459,6 @@ padding-bottom: 10px;
 #loadMore a:hover {
     background-color: #021737;
 }
+#tog3{
+	display: none;
+}
