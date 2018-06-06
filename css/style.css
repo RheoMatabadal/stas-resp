@@ -565,3 +565,7 @@ padding-bottom: 10px;
         height: 20px;
     }
 }
+.col-md-12-modified{
+	width: 100%;
+	background-color: #eeeeee;
+}
