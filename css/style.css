@@ -476,7 +476,7 @@ padding-bottom: 10px;
 /* carousel */
 #quote-carousel 
 {
-  padding: 0 10px 30px 10px;
+  padding: 30px 10px 30px 10px;
   margin-top: 30px 0px 0px;
 }
 
@@ -508,16 +508,13 @@ padding-bottom: 10px;
 {
   background: #333333;
 }
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
 /* End carousel */
 
 .item blockquote {
     border-left: none; 
-    margin: 0;
+    margin-top: 30px;
+    margin-left: 70px;
+
 }
 
 
@@ -568,4 +565,15 @@ padding-bottom: 10px;
 .col-md-12-modified{
 	width: 100%;
 	background-color: #eeeeee;
+}
+.box-white{
+	border: 2px solid white;
+	margin-left: 200px;
+	margin-right:200px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	padding-left: 190px;
+}
+.author{
+	font-weight: bolder;
 }
