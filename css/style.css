@@ -601,3 +601,6 @@ blockquote{
 .breadcrumb-item a{
 	color: white;
 }
+.border{
+	border-radius: 0px;
+}
