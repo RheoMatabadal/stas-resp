@@ -59,8 +59,8 @@ $(document).ready(function(){
       }
       else
       {
-        $(".filter").not("."+value).hide("1000");
-        $(".filter").filter("."+value).show("1000");
+        $(".filter").not("."+value).hide("30000");
+        $(".filter").filter("."+value).show("50000");
 
       }
       //add active class
