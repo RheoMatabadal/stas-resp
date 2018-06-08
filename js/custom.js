@@ -115,25 +115,7 @@ $(document).ready(function(){
 	];
 	var chart = new Chart(ctx).Doughnut(data);
 });
-//canvas webdesign
-$(document).ready(function(){
-	var ctx = $("#canvasWebDesign").get(0).getContext("2d");
-	var data = [
-	{
-		value: 61,
-		color: "#eeeeee",
-		highlight: "grey",
-		label: "Web Design"	
-	},
-	{
-		value: 39,
-		color: "white"
-		
-		
-	}
-	];
-	var chart = new Chart(ctx).Doughnut(data);
-});
+
 //canvas adobe CC
 $(document).ready(function(){
 	var ctx = $("#canvasAdobeCC").get(0).getContext("2d");
