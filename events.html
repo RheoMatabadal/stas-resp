@@ -69,15 +69,80 @@
         <div class="col-md-10-offset-1">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iste rerum sit facilis voluptas neque deleniti, assumenda laudantium eaque nobis similique odio maiores nostrum delectus beatae accusamus nihil id dolorem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, tempore, nesciunt! Necessitatibus quam quisquam autem, voluptate aliquam quaerat, consequatur adipisci voluptatem iste blanditiis, molestias corporis temporibus, ducimus consequuntur qui reiciendis.</p>
         </div>
+      </div>
+    </div>
 
         <!-- charts -->
-         <div class="row">
-         <div class="col-md-8 offset-2">
-            
+        <script>
+          $(document).ready(function(){
+  var ctx = $("#canvasLogistiek").get(0).getContext("2d");
+  var data = [
+  {
+    value: 100,
+    color: "#eeeeee",
+    highlight: "grey",
+    label: "Web Design" 
+  }
+  ];
+  var chart = new Chart(ctx).Doughnut(data);
+});
+           $(document).ready(function(){
+  var ctx = $("#canvasConcept").get(0).getContext("2d");
+  var data = [
+  {
+    value: 100,
+    color: "#eeeeee",
+    highlight: "grey",
+    label: "Web Design" 
+  }
+  ];
+  var chart = new Chart(ctx).Doughnut(data);
+});
+            $(document).ready(function(){
+  var ctx = $("#canvasPers").get(0).getContext("2d");
+  var data = [
+  {
+    value: 100,
+    color: "#eeeeee",
+    highlight: "grey",
+    label: "Web Design" 
+  }
+  ];
+  var chart = new Chart(ctx).Doughnut(data);
+});
+        </script>
+        <div class="container">
+       <div class="row">
+        
+        <div class="col-md-3 col-md-offset-1 ">
+            <canvas id="canvasLogistiek" width="200" height="200"> 
+
+            </canvas>
+          <h2 class="under-chart-text2">Logistiek</h2>
+          <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque adipisci id perspiciatis veniam magnam! Numquam incidunt placeat eos cum. Beatae perspiciatis officiis sint harum voluptatibus, est quam laborum labore. Nulla.</p></center>
+          </div>
+          <div class="col-md-3 col-md-offset-1 ">
+            <canvas id="canvasConcept" width="200" height="200"> 
+
+            </canvas>
+          <h2 class="under-chart-text2">Concept</h2>
+          <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque adipisci id perspiciatis veniam magnam! Numquam incidunt placeat eos cum. Beatae perspiciatis officiis sint harum voluptatibus, est quam laborum labore. Nulla.</p></center>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+            <canvas id="canvasPers" width="200" height="200"> 
+
+            </canvas>
+          <h2 class="under-chart-text2">Pers</h2>
+          <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque adipisci id perspiciatis veniam magnam! Numquam incidunt placeat eos cum. Beatae perspiciatis officiis sint harum voluptatibus, est quam laborum labore. Nulla.</p></center>
+          </div>
          </div>
+         </div>
+
+
+
        </div>
-      </div>
-      </div>
+     
+      
       <br>
 
 <section id="gallery">
@@ -229,6 +294,7 @@
 <script src="js/animated-scroll-anchor.js"></script>
 <script src="js/scrolldown.js"></script>
 <script src="js/custom.js"></script>
+<script src="js.extrachart.js"></script>
   </body>
 
 </html>

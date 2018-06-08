@@ -71,6 +71,7 @@ $(document).ready(function(){
     });
   });
 //donut chart graphic pagina
+
 //canvas design
 $(document).ready(function(){
 
@@ -148,6 +149,24 @@ $(document).ready(function(){
 		color: "white"
 		
 		
+	}
+	];
+	var chart = new Chart(ctx).Doughnut(data);
+});
+
+//canvas logistiek
+$(document).ready(function(){
+	var ctx = $("#canvasLogistiek").get(0).getContext("2d");
+	var data = [
+	{
+		value: 9,
+		color: "#eeeeee",
+		highlight: "grey",
+		label: "logistiek"
+	},
+	{
+		value:91,
+		color:"white"
 	}
 	];
 	var chart = new Chart(ctx).Doughnut(data);
