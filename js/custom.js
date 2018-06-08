@@ -75,6 +75,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	var ctx = $("#canvasDesign").get(0).getContext("2d");
+	
 	var data = [
 	{
 		value: 75,
@@ -92,6 +93,7 @@ $(document).ready(function(){
 
 	];
 	var chart = new Chart(ctx).Doughnut(data);
+	
 });
 //canvas DTP
 $(document).ready(function(){

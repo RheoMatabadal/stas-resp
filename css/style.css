@@ -663,3 +663,7 @@ blockquote{
   -moz-transition-property: -moz-transform, opacity;
   transition-property: transform, opacity;
 }
+.under-chart-text{
+	text-align: center;
+	font-weight:bolder;
+}
