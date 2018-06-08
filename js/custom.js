@@ -70,3 +70,83 @@ $(document).ready(function(){
       
     });
   });
+//donut chart graphic pagina
+//canvas design
+$(document).ready(function(){
+
+	var ctx = $("#canvasDesign").get(0).getContext("2d");
+	var data = [
+	{
+		value: 75,
+		color: "#eeeeee",
+		highlight: "grey",
+		label: "design"	
+	},
+	{
+		value: 25,
+		color: "white"
+		
+		
+	},
+
+
+	];
+	var chart = new Chart(ctx).Doughnut(data);
+});
+//canvas DTP
+$(document).ready(function(){
+	var ctx = $("#canvasDtp").get(0).getContext("2d");
+	var data = [
+	{
+		value: 84,
+		color: "#eeeeee",
+		highlight: "grey",
+		label: "dtp"	
+	},
+	{
+		value: 16,
+		color: "white"
+		
+		
+	}
+	];
+	var chart = new Chart(ctx).Doughnut(data);
+});
+//canvas webdesign
+$(document).ready(function(){
+	var ctx = $("#canvasWebDesign").get(0).getContext("2d");
+	var data = [
+	{
+		value: 61,
+		color: "#eeeeee",
+		highlight: "grey",
+		label: "Web Design"	
+	},
+	{
+		value: 39,
+		color: "white"
+		
+		
+	}
+	];
+	var chart = new Chart(ctx).Doughnut(data);
+});
+//canvas adobe CC
+$(document).ready(function(){
+	var ctx = $("#canvasAdobeCC").get(0).getContext("2d");
+	var data = [
+	{
+		value: 97,
+		color: "#eeeeee",
+		highlight: "grey",
+		label: "Adobe CC"	
+	},
+	{
+		value: 3,
+		color: "white"
+		
+		
+	}
+	];
+	var chart = new Chart(ctx).Doughnut(data);
+});
