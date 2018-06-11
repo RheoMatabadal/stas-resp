@@ -60,11 +60,10 @@ body{
 }
 
 .full-of-ideas{
-  display: block;
-  width: 70%;
-  max-width: 70%;	
-  height: auto;
-  padding-top:40px;
+ color: #999999;
+ font-size:4l0px;
+ font-weight:bold;
+
 }
 .about-bio{
 	font-size: 15px;
@@ -76,7 +75,7 @@ body{
 	width: 125px;
 }
 .leer-ons-kennen{
-padding-top: 100px;
+padding-top: 145px;
 color:white;
 text-decoration: none;	
 
