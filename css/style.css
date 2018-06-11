@@ -709,3 +709,8 @@ padding-left: 50px;
 .breadcrumb-port a:hover {color: rgba(42, 100, 150, 1);}
 .breadcrumb-port>.active {color: rgba(153, 153, 153, 1);}
 .breadcrumb-port>li+li:before {color:#626262; content: #626262;}
+
+.bold-small{
+	font-weight:bold;
+	font-size:10px;
+}
