@@ -714,3 +714,30 @@ padding-left: 50px;
 	font-weight:bold;
 	font-size:10px;
 }
+
+.interessant-square{
+	background-color: black;
+	color:#999999;
+	width:100%;
+	height: auto;
+}
+.interessant{
+	padding-top:30px;
+	
+}
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+.container-fluid-no-pad{
+
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+
+}
