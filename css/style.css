@@ -716,13 +716,19 @@ padding-left: 50px;
 }
 
 .interessant-square{
-	background-color: black;
-	color:#999999;
-	width:100%;
-	height: auto;
+  background: black;
+  position:relative;
+  min-height:337px;
+  height: 100%;
+  width:100;
+  margin:0 auto;
+  color:#999999;
+
 }
 .interessant{
-	padding-top:30px;
+	padding-top:130px;
+	padding-left:30px;
+	font-weight: bold;	
 	
 }
 .row.no-pad {
@@ -740,4 +746,17 @@ padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
 
+}
+.bekijk-portfolio{
+padding-top: 100px;
+color:white;
+text-decoration: none;	
+padding-left: 30px;
+font-size:10px;
+
+}
+.bekijk-portfolio img{
+transform: rotate(-90deg);	
+filter: brightness(0) invert(1);
+max-height: 10px;
 }
