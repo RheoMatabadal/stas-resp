@@ -1,3 +1,16 @@
+//portflio slider
+$(document).ready(function(){
+  $('.portbxslider').bxSlider({
+    mode: 'vertical',
+    controls:true,
+    pager:false,
+    responsive:true,
+    adaptiveHeight:false,
+    nextText:'NEXT' +'<div class="tekentje-klein-next bx-prev"><img src="img/down-arrow.png">  </div>',
+    prevText:'<div class="tekentje-klein-previous bx-prev"><img src="img/down-arrow.png">  </div>'+'PREVIOUS'
+
+  });
+});
 //bx slider
 $(document).ready(function() {
 	$('.bxslider').bxSlider({
@@ -7,7 +20,10 @@ $(document).ready(function() {
 		pager:false,
 		responsive:true,
 		slideWidth: 0,
-		shrinkItems:true
+		shrinkItems:true,
+		nextText:'NEXT'+'<div class="tekentje-klein-next bx-prev"><img src="img/down-arrow.png">  </div>',
+    prevText:'<div class="tekentje-klein-previous bx-prev"><img src="img/down-arrow.png">  </div>'+'PREVIOUS'
+
 	});
  });
 //load more button
@@ -153,3 +169,4 @@ $(document).ready(function(){
 	];
 	var chart = new Chart(ctx).Doughnut(data);
 });
+

@@ -302,6 +302,7 @@ box-shadow: none;
   text-indent: 5px; 
   z-index: 9999;
  color:black;
+ font-weight: bold;
 
   }	
 
@@ -546,8 +547,9 @@ padding-bottom: 10px;
 
 .item blockquote {
     border-left: none; 
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: 70px;
+    padding-bottom:75px;
 
 }
 
@@ -674,3 +676,36 @@ blockquote{
 .img61{
 padding-left: 50px;
 }
+.tekentje-klein-previous img{
+	max-height: 8px;
+	-webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  font-weight:bold;
+}
+.tekentje-klein-next img{
+	max-height: 8px;
+	-webkit-transform:rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-weight:bold;
+}
+.portfolio-title{
+	text-align:center;
+	font-weight:bolder;
+
+}
+
+.breadcrumb-port {background: rgba(255, 255, 255, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px; display: block; text-align: center;}
+.breadcrumb-port li {font-size: 14px;}
+.breadcrumb-port a {
+	color: #626262;
+	font-weight: bold;
+}
+.breadcrumb-port a:hover {color: rgba(42, 100, 150, 1);}
+.breadcrumb-port>.active {color: rgba(153, 153, 153, 1);}
+.breadcrumb-port>li+li:before {color:#626262; content: #626262;}
