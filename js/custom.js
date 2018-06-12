@@ -187,3 +187,12 @@ $(document).ready(function(){
     next.children(':first-child').clone().appendTo($(this));
   }
 });
+ 
+//overlay menu toggler
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
