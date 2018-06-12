@@ -30,30 +30,35 @@
 
   </head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#home">STAS</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">about STAS</a></li>
-            <li><a href="#corporate">corporate identity</a></li>
-            <li><a href="#graphic">graphic design</a></li>
-            <li><a href="#film">film/video</a></li>
-            <li><a href="#events">events</a></li>
-            <li><a href="#contact">contact<a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+  <div id="myNav" class="overlay-menu">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p>close</p>
+  <div class="overlay-content">
+    <a href="#">about STAS</a>
+    <a href="#">corporate identity</a>
+    <a href="#">graphic design</a>
+    <a href="#">film/video</a>
+    <a href="#">events</a>
+    <a href="#">contact</a>
+    <br>
+    <i class="fas fa-envelope-square fa-2x social-space"></i>
+    <i class="fas fa-phone-square fa-2x social-space"></i>
+    <i class="fab fa-facebook-square fa-2x social-space"></i>
+    <i class="fab fa-vimeo-square fa-2x social-space"></i>
+  </div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-1 menu-box">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9868;</span>
+<p>menu</p>
+</div>
+</div>
+</div>
+<div class="tagline">
+<img src="img/stasTagLine.jpg">
+</div>
+
     <section id="home">
       <div class="container-fluid">
         <div class="row">
@@ -79,6 +84,15 @@
       </div>
     </section>
    <section id="about">
+   <div class="col-md-1 menu-box">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9868;</span>
+<p>menu</p>
+</div>
+</div>
+</div>
+<div class="tagline">
+<img src="img/stasTagLine.jpg">
+</div>
      <div class="container">
       <div class="row">
         <div class="col-md-12">

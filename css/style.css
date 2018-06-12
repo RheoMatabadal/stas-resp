@@ -887,6 +887,13 @@ max-height: 10px;
     top: initial;
     width: 100%;
 }
+#carousel-pager{
+	position: absolute;
+	z-index: 20;
+    left: 60px;
+    top: 18px;
+
+}
    /* .carousel-inner > .item > img, .carousel-inner > .item > a > img {
         display: block;
         height: 400px;
@@ -899,10 +906,10 @@ max-height: 10px;
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 30;
     top: 0;
     left: 0;
-    background:url('../img/pattern_banner.jpg');
+    background:url('../img/menuOverlay.jpg');
     background-repeat: no-repeat;
 	background-size: cover;
     /*background-color: rgb(0,0,0);*/
@@ -917,6 +924,9 @@ max-height: 10px;
     width: 100%;
     text-align: center;
     margin-top: 30px;
+}
+.overlay-content i{
+	color:white;
 }
 
 .overlay-menu a {
@@ -948,6 +958,7 @@ max-height: 10px;
     left: 55px;
     font-size: 15px;
     color: white;
+    font-weight:bold;
    
 }
 
@@ -973,7 +984,7 @@ max-height: 10px;
     left: 35px;
 	overflow: hidden;
 	position: absolute;
-	z-index: 0;
+	z-index: 25;
 	background-color: white;
 }
 .menu-box p {
@@ -982,6 +993,7 @@ max-height: 10px;
 }
 .tagline{
 	position:relative;
+
 }
 .tagline img{
 	position: absolute;
@@ -989,4 +1001,8 @@ max-height: 10px;
     right: 35px;
     width:100px;
     height: auto;
+    z-index: 900px;
+}
+.social-space{
+	margin-right: 7px;
 }
