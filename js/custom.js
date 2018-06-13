@@ -28,18 +28,18 @@ $(document).ready(function() {
  });
 //load more button
 $( document ).ready(function () {
-		$(".moreBox").slice(0, 4).show();
-		if ($(".moreBox:hidden").length != 0) {
-			$("#loadMore").show();
-		}		
+		$(".moreBox").slice(0, 4).show(); 
 		$("#loadMore").on('click', function (e) {
-			e.preventDefault();
-			$(".moreBox:hidden").slice(0, 8).slideDown();
-			if ($(".moreBox:hidden").length == 0) {
-				$("#loadMore").fadeOut('slow');
-			}
-		});
-	});
+        e.preventDefault();
+        $(".moreBox:hidden").slice(0, 4).slideDown();
+        if ($(".moreBox:hidden").length == 0) {
+            $("#loadMore").fadeOut('slow');
+        }
+ $('html,body').animate({
+            scrollTop: $(this).offset().top
+        }, 1500);
+    });
+});
 //map overlay hide & show
 $(document).ready(function(){
 	$("#tog2").on('click', function (e){

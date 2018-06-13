@@ -1073,19 +1073,40 @@ font-size: 12px;
 }
 .artist img{
 padding-top:45px;
+padding-left: 20px;
 }
 .artist a{
 	color: white;
 	font-weight:lighter;
 	font-size: 10px;
+	padding-right: 80px;
 	
+}
+.artist p{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .about-artist{
 	font-weight:bold;
 	font-size: 13px;
-	padding-top:199px;
+	padding-top:225px;
 }
 .left-align{
 	margin-right: 250px;
+}
+.vl {
+    border: 10px solid grey;
+    min-height: 100%;
+    position: absolute;
+    right:0;
+    left:100;
+    top: 0;
+    color: grey;
+    
+  
+    
+}
+.white{
+	color: white;
 }
