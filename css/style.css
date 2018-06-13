@@ -483,8 +483,8 @@ padding-bottom: 10px;
 }
 
 #loadMore {
-     padding-bottom: 20px;
-    padding-top: 20px;
+     /*padding-bottom: 20px;*/
+    /*padding-top: 20px;*/
     text-align: center;
     width: 100%;
 }

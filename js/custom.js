@@ -26,20 +26,7 @@ $(document).ready(function() {
 
 	});
  });
-//load more button
-$( document ).ready(function () {
-		$(".moreBox").slice(0, 4).show(); 
-		$("#loadMore").on('click', function (e) {
-        e.preventDefault();
-        $(".moreBox:hidden").slice(0, 4).slideDown();
-        if ($(".moreBox:hidden").length == 0) {
-            $("#loadMore").fadeOut('slow');
-        }
- $('html,body').animate({
-            scrollTop: $(this).offset().top
-        }, 1500);
-    });
-});
+
 //map overlay hide & show
 $(document).ready(function(){
 	$("#tog2").on('click', function (e){
@@ -70,13 +57,13 @@ $(document).ready(function(){
     $(".button").click(function(){
       var value = $(this).attr("data-filter");
       if (value == "all") {
-        $(".filter").show("1000");
+        $(".filter").show("10");
 
       }
       else
       {
-        $(".filter").not("."+value).hide("30000");
-        $(".filter").filter("."+value).show("50000");
+        $(".filter").not("."+value).hide("30");
+        $(".filter").filter("."+value).show("50");
 
       }
       //add active class
@@ -86,6 +73,20 @@ $(document).ready(function(){
       
     });
   });
+//load more button
+$( document ).ready(function () {
+		$(".moreBox").slice(0, 4).show(); 
+		$("#loadMore").on('click', function (e) {
+        e.preventDefault();
+        $(".moreBox:hidden").slice(0, 4).slideDown();
+        if ($(".moreBox:hidden").length == 0) {
+            $("#loadMore").fadeOut('slow');
+        }
+ $('html,body').animate({
+            scrollTop: $(this).offset().top
+        }, 1500);
+    });
+});
 //donut chart graphic pagina
 
 //canvas design
