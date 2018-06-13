@@ -196,3 +196,11 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+//artist page overlay
+function openArt() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeArt() {
+    document.getElementById("mySidenav").style.width = "0";
+}
