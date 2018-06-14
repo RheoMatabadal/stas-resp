@@ -205,32 +205,31 @@ function openArt() {
 function closeArt() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
 // slick slider artist page
- $('.slider-for').slick({
+
+$('.slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   fade: true,
   asNavFor: '.slider-nav',
-  adaptiveHeight:true,
-  mobileFirst:true,
-   autoplay:true,
-   autoplaySpeed:3000
-});
- 
 
+});
 $('.slider-nav').slick({
   slidesToShow: 3,
-  slidesToScroll: 0,
+  slidesToScroll: 2,
   asNavFor: '.slider-for',
-    dots: false,
-    prevArrow: false,
-    nextArrow: false,
-  centerMode: false,
+  dots: false,
+  centerMode: true,
   focusOnSelect: true,
   vertical:true,
-  verticalSwipping:true,
-   mobileFirst:true,
-   autoplay:true,
-   autoplaySpeed:3000
+  autoplay:true,
+  arrows:false,
+  infinite:true,
+  initialSlide:1
+
 });
+
+ 
+

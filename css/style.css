@@ -506,7 +506,6 @@ padding-bottom: 10px;
 }
 #tog3{
 	display: none;
-	margin-left: 50px;
 
 }
 .moreBox{
@@ -1077,7 +1076,6 @@ font-size: 12px;
 .artist img{
 padding-top:45px;
 padding-left: 20px;
-padding-right: 30px;
 }
 .artist a{
 	color: white;
@@ -1094,7 +1092,7 @@ padding-right: 30px;
 .about-artist{
 	font-weight:bold;
 	font-size: 13px;
-	padding-top:195px;
+	padding-top:225px;
 }
 .left-align{
 	margin-right: 250px;
@@ -1126,8 +1124,9 @@ padding-right: 30px;
   transition: .5s ease;
   background-color: #030303;
 }
-.slider-for{
-	/*height: auto;*/
-	width:100%;
-	min-height:100%;
+.slider-nav{
+	margin-top:200px;
+}
+.slick-slide{
+	margin:15px;
 }
