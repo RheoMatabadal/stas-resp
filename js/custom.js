@@ -221,7 +221,7 @@ function closeArt() {
 
 $('.slider-nav').slick({
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 0,
   asNavFor: '.slider-for',
     dots: false,
     prevArrow: false,
