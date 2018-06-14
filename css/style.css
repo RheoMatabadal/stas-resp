@@ -1092,7 +1092,7 @@ padding-left: 20px;
 .about-artist{
 	font-weight:bold;
 	font-size: 13px;
-	padding-top:225px;
+	padding-top:185px;
 }
 .left-align{
 	margin-right: 250px;
@@ -1133,4 +1133,7 @@ padding-left: 20px;
 .slick-slide{
 	margin:15px;
 	/*z-index: 1001;*/
+}
+#artist{
+	position: relative;
 }

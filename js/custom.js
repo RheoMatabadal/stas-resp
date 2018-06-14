@@ -1,5 +1,4 @@
 
-openArt();
 //portflio slider
 $(document).ready(function(){
   $('.portbxslider').bxSlider({
@@ -199,16 +198,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
-//artist page overlay
-function openArt() {
-    document.getElementById("mySidenav").style.width = "100%";
-    
-
-}
-
-function closeArt() {
-    document.getElementById("mySidenav").style.width = "0";
-}
 
 // slick slider artist page
 
@@ -237,4 +226,14 @@ $('.slider-nav').slick({
 
 });
 
- 
+ //artist page overlay
+function openArt() {
+    document.getElementById("mySidenav").style.width = "100%";
+    
+
+}
+
+function closeArt() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+openArt();
