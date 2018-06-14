@@ -786,7 +786,7 @@ max-height: 10px;
   background-color: #030303;
 }
 .image:hover .overlay {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .about-hov-title{
 	font-weight:bolder;
@@ -1100,11 +1100,13 @@ padding-left: 20px;
 .vl {
     border: 10px solid grey;
     min-height: 100%;
-    position: absolute;
     right:0;
-    left:100;
     top: 0;
     color: grey;
+    position: fixed;
+    z-index: 30;
+   
+
     
   
     
@@ -1126,7 +1128,9 @@ padding-left: 20px;
 }
 .slider-nav{
 	margin-top:200px;
+	/*z-index: 1000;*/
 }
 .slick-slide{
 	margin:15px;
+	/*z-index: 1001;*/
 }

@@ -1,3 +1,5 @@
+
+openArt();
 //portflio slider
 $(document).ready(function(){
   $('.portbxslider').bxSlider({
@@ -200,6 +202,8 @@ function closeNav() {
 //artist page overlay
 function openArt() {
     document.getElementById("mySidenav").style.width = "100%";
+    
+
 }
 
 function closeArt() {
@@ -207,6 +211,8 @@ function closeArt() {
 }
 
 // slick slider artist page
+
+
 
 $('.slider-for').slick({
   slidesToShow: 1,
@@ -232,4 +238,3 @@ $('.slider-nav').slick({
 });
 
  
-
