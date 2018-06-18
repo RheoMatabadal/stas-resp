@@ -36,27 +36,11 @@ body{
     border-radius: 0px;
     position: absolute;
     background: transparent;
-    margin-top: 320px;
+    margin-top: 400px;
+    font-size:33px;
 
   	}
-.ct-btn-scroll {
-  width: 49px;
-  height: 49px;
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  /*padding-top: 600px;*/
-  z-index: 9;
-  border-radius: 50%;
-  -webkit-transition: background-color 0.25s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-}
-.scroll-a{
 
-    -webkit-filter: invert(100%);
-}
 
 .full-of-ideas{
  color: #999999;
@@ -102,7 +86,7 @@ h1{
 
 #about {
 	padding-top:50px;
-	min-height:600px;
+	min-height:700px;
 	color: #FFFFFF;
 	background-color: #000000 ;
 	}
@@ -296,7 +280,7 @@ box-shadow: none;
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 50%;
-  margin-top: -16px;
+  margin-top: -40px;
   padding-top:225px;
   outline: 0;
   width: 32px;
@@ -464,7 +448,7 @@ padding-bottom: 10px;
 	background-image: url('../img/ctaBanner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height:400px;
+	min-height:600px;
 	height: 100%;
 	width: 100%;	
 }
@@ -472,13 +456,13 @@ padding-bottom: 10px;
 	background-image: url('../img/filmCTABanner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height:400px;
+	min-height:700px;
 	height: 100%;
 	width: 100%;	
 }
 .cta-text{
 	color:white;
-	margin-top:150px;
+	margin-top:275px;
 	margin-left: 75px;
 	margin-bottom:30px;
 	margin-right: 30px;
@@ -779,11 +763,12 @@ max-height: 10px;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  /*height: 100%;*/
+  /*width: 100%;*/
   opacity: 0;
   transition: .5s ease;
   background-color: #030303;
+
 }
 .image:hover .overlay {
   opacity: 0.8;
@@ -1122,7 +1107,7 @@ padding-left: 20px;
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 1		;
+  opacity: 1;
   transition: .5s ease;
   background-color: #030303;
 }
@@ -1135,5 +1120,8 @@ padding-left: 20px;
 	/*z-index: 1001;*/
 }
 #artist{
-	position: relative;
+	position: fixed;
+	width:100%;
+	height: 100%;
+	
 }

@@ -236,4 +236,4 @@ function openArt() {
 function closeArt() {
     document.getElementById("mySidenav").style.width = "0";
 }
-openArt();
+//scroll down section
