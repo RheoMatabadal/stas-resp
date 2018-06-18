@@ -236,4 +236,15 @@ function openArt() {
 function closeArt() {
     document.getElementById("mySidenav").style.width = "0";
 }
-//scroll down section
+//artist page open closer
+// function toggler(){
+// 		var x = 
+// 		document.getElementById("mySidenav");
+// 		if (x.style.width === "0"){
+// 			x.style.width = "100%";
+// 		}else if(x.style.width === "100%")
+// 		{
+// 			x.style.width = "0";
+// 		}
+
+// 	}
