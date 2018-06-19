@@ -983,6 +983,7 @@ max-height: 10px;
 	overflow: hidden;
 	position: absolute;
 	z-index: 97;
+	color:black;
 	background-color: white;
 }
 .menu-box p {
@@ -1102,6 +1103,9 @@ font-size:10px;
 /*margin-top:30px;*/
 margin: 115px -85px 0px -85px !important;
   }
+ .linker {
+ 	margin-top: 100px;
+ }
    
 
     
@@ -1119,9 +1123,29 @@ margin: 115px -85px 0px -85px !important;
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 1;
+  opacity: 0.6;
   transition: .5s ease;
   background-color: #030303;
+  color: white;
+}
+/*portfolio pagina imag hover*/
+.imager:hover .overlay2 {
+  opacity: 0.0;
+}
+.port-title{
+	text-align: center;
+	color: white;
+	margin-top:40%;
+	font-size:50px;
+	font-weight:bold;
+
+}
+.port-cat{
+text-align: center;
+color: white;
+font-size: 20px;
+font-weight:bold;
+top: 0px;
 }
 .slider-nav{
 	margin-top:200px;
@@ -1137,3 +1161,4 @@ margin: 115px -85px 0px -85px !important;
 	height: 100%;
 	
 }
+
