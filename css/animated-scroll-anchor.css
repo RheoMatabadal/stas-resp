@@ -23,7 +23,7 @@
 }
 .image-hero .image-hero-content {
   position: absolute;
-  top: 25%;
+  /*top: 25%;*/
   text-align: center;
   left: 0;
   right: 0;
@@ -34,7 +34,7 @@
   font-weight: 600;
   letter-spacing: -1px;
   font-size: 4.20873em;
-  margin-bottom: 0.1em;
+  /*margin-bottom: 0.1em;*/
   line-height: 8rem;
   color: #fff;
 }
@@ -46,13 +46,16 @@
 }
 .ct-btn-scroll {
   position: absolute;
-  bottom: 5%;
-  color: #fff;
+  /*bottom: 5%;*/
+  color: white !important;
   font-size: 48px;
   transition: all 0.3s ease-in-out;
+  margin-top: 600px;
+    margin-left: -250px;
 }
+
 .ct-btn-scroll:focus, .ct-btn-scroll:hover {
-  color: #f59331;
+  color: white !important;
 }
 .ct-btn-scroll {
   background: url('../img/down-arrow.png') no-repeat;
@@ -61,14 +64,27 @@
   max-width: 60px;
   max-height: 60px;
 }
-#scrollDown {
+.scroll-down p{
+font-weight: bolder;
+font-size:12px;
+margin-left: -290px;
+padding-top: 575px;
+}
+
+
+/*#scrollDown {
   padding: 100px 0;  
-}
-#scrollDown p {
+}*/
+/*#scrollDown p {
   padding: 25px 0;
-}
+}*/
 @media screen and (max-width: 768px) {
   .image-hero .image-hero-content p {
 	display: none;
   }	
+}
+.whitener{
+  filter: brightness(0) invert(1);
+  font-weight:bold;
+
 }
