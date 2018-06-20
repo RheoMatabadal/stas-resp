@@ -13,7 +13,7 @@ body{
   padding: 0 5%;
   clear: both;
  }
-#over_map { position: absolute; top: 55px; z-index: 99; }
+#over_map { position: absolute; top: 55px; z-index: 29; }
 .navbar-default{
 	background: #fff;
 	border:0;
