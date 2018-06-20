@@ -243,7 +243,9 @@ $(".vl").mouseleave(function(){
 });
 
 function openArt() {
+    document.getElementById("artist").style.width = "100%";
     document.getElementById("mySidenav").style.width = "100%";
+    
     //document.getElementById("vl").style.opacity="1.0 !important";
     console.log("open art");
     $(".vl").css("opacity", "1.0");
@@ -253,7 +255,9 @@ function openArt() {
 
 function closeArt() {
 	console.log("close art");
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("artist").style.width = "0%";
+    document.getElementById("mySidenav").style.width = "100%";
+    
     document.getElementById("vl").style.opacity="0.2";
     isContentBoxOpen = false;
 }
