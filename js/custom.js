@@ -93,9 +93,9 @@ $( document ).ready(function () {
 //canvas design
 $(document).ready(function(){
 
-	var ctx = $("#canvasDesign").get(0).getContext("2d");
+	//var ctx = $("#canvasDesign").get(0).getContext("2d");
 	
-	var data = [
+	/*var data = [
 	{
 		value: 75,
 		color: "#eeeeee",
@@ -110,13 +110,13 @@ $(document).ready(function(){
 	},
 
 
-	];
-	var chart = new Chart(ctx).Doughnut(data);
+	];*/
+	//var chart = new Chart(ctx).Doughnut(data);
 	
 });
 //canvas DTP
 $(document).ready(function(){
-	var ctx = $("#canvasDtp").get(0).getContext("2d");
+	/*var ctx = $("#canvasDtp").get(0).getContext("2d");
 	var data = [
 	{
 		value: 84,
@@ -131,12 +131,12 @@ $(document).ready(function(){
 		
 	}
 	];
-	var chart = new Chart(ctx).Doughnut(data);
+	var chart = new Chart(ctx).Doughnut(data);*/
 });
 
 //canvas adobe CC
 $(document).ready(function(){
-	var ctx = $("#canvasAdobeCC").get(0).getContext("2d");
+	/*var ctx = $("#canvasAdobeCC").get(0).getContext("2d");
 	var data = [
 	{
 		value: 97,
@@ -151,12 +151,12 @@ $(document).ready(function(){
 		
 	}
 	];
-	var chart = new Chart(ctx).Doughnut(data);
+	var chart = new Chart(ctx).Doughnut(data);*/
 });
 
 //canvas logistiek
 $(document).ready(function(){
-	var ctx = $("#canvasLogistiek").get(0).getContext("2d");
+	/*var ctx = $("#canvasLogistiek").get(0).getContext("2d");
 	var data = [
 	{
 		value: 9,
@@ -169,7 +169,7 @@ $(document).ready(function(){
 		color:"white"
 	}
 	];
-	var chart = new Chart(ctx).Doughnut(data);
+	var chart = new Chart(ctx).Doughnut(data);*/
 });
 
 //portfolio slider
@@ -226,16 +226,40 @@ $('.slider-nav').slick({
 
 });
 
+var isContentBoxOpen = false;
  //artist page overlay
+ $(".vl").mouseenter(function(){
+ 	if(!isContentBoxOpen){
+ 		$(this).css("opacity", "1.0");
+ 	}
+    
+});
+
+$(".vl").mouseleave(function(){
+    if(!isContentBoxOpen){
+    	$(this).css("opacity", "0.2");
+    }
+    
+});
+
 function openArt() {
     document.getElementById("mySidenav").style.width = "100%";
-    
+    //document.getElementById("vl").style.opacity="1.0 !important";
+    console.log("open art");
+    $(".vl").css("opacity", "1.0");
+    isContentBoxOpen = true;
 
 }
 
 function closeArt() {
+	console.log("close art");
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("vl").style.opacity="0.2";
+    isContentBoxOpen = false;
 }
+
+
+
 //artist page open closer
 // function toggler(){
 // 		var x = 
